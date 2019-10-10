@@ -1,8 +1,8 @@
 # ACH depth: The Area of the Convex Hull of Sampled Curves: A Robust Functional Statistical Depth Measure.
 =========================================
 
-This repository hosts Python code of the Area of the Convex Hull of Sampled Curves (ACH Depth).
-Here we provide the source code for the algorithms as well as example notebooks to help get started
+This repository hosts Python code of the Area of the Convex Hull of Sampled Curves (ACH Depth). The script python FCHD.py contains the algorithm.
+Here we provide the source code for the algorithms as well as example notebooks to help get started.
 
 =========================================
 
