@@ -1,3 +1,16 @@
+""" ACH depth
+
+    Author : Guillaume Staerman
+"""
+
+
+"""The Area of the Convex Hull of Sampled curves (depth).
+
+This is the implementation of The ACH depth which is a functional statistical depth measure for functional data.
+"""
+
+
+
 
 import numpy as np
 from math import *
