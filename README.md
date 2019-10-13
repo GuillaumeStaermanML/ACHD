@@ -36,6 +36,6 @@ Cite
 If you use this code in your project, please cite::
 
    The Area of the Convex Hull of Sampled Curves: a Robust Functional Statistical Depth Measure.  
-   Guillaume Staerman, Pavlo Mozharovskyi, Stéphan Clémençon. 
-   https://arxiv.org/abs/1910.04085, 2019.
+   Guillaume Staerman, Pavlo Mozharovskyi, Stéphan Clémençon, 2019. 
+   https://arxiv.org/abs/1910.04085.
    
