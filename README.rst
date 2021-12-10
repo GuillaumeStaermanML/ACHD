@@ -61,11 +61,37 @@ Create a toy dataset :
 
 
    
-And then use FIF to ranking functional dataset :
+And then use ACHD to rank functional dataset :
 
 .. code:: python
 
-    import achd as ACHD
-    ACH = ACHD.ACHD(discretization_points=tps,combi_subsample=420, J_size=2)
-    ACH.fit(X)
-    Score = ACH.get_training_score()
+   import achd as ACHD
+   ACH = ACHD.ACHD(discretization_points=tps,combi_subsample=420, J_size=2)
+   ACH.fit(X)
+   Score = ACH.get_training_score()
+   
+   
+Dependencies
+------------
+
+These are the dependencies to use FIF:
+
+* numpy 
+* cython
+
+
+Cite
+----
+
+If you use this code in your project, please cite::
+
+   @InProceedings{pmlr-v108-staerman20a,
+     title = 	 {The Area of the Convex Hull of Sampled Curves: a Robust Functional Statistical Depth measure},
+     author =       {Staerman, Guillaume and Mozharovskyi, Pavlo and Cl\'emen{\c}on, St\'ephan},
+     booktitle = 	 {Proceedings of the Twenty Third International Conference on Artificial Intelligence and Statistics},
+     pages = 	 {570--579},
+     year = 	 {2020},
+     editor = 	 {Chiappa, Silvia and Calandra, Roberto},
+     volume = 	 {108},
+     publisher =    {PMLR}
+   }
