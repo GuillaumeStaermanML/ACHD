@@ -91,7 +91,6 @@ If you use this code in your project, please cite::
      booktitle = 	 {Proceedings of the Twenty Third International Conference on Artificial Intelligence and Statistics},
      pages = 	 {570--579},
      year = 	 {2020},
-     editor = 	 {Chiappa, Silvia and Calandra, Roberto},
      volume = 	 {108},
      publisher =    {PMLR}
    }
