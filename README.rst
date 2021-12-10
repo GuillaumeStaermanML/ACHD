@@ -1,6 +1,8 @@
 ACHD: The area of the convex hull of sampled curves: a robust functional statistical depth measure.
 =========================================
 
+This repository hosts Python code of the ACH depth algorithm: http://proceedings.mlr.press/v108/staerman20a.html.
+
 
 Installation
 ------------
