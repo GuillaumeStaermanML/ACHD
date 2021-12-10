@@ -26,7 +26,6 @@ Create a toy dataset :
 
 .. code:: python
 
-
   import numpy as np 
   np.random.seed(42)
   m =100;n =100;tps = np.linspace(0,1,m);v = np.linspace(1,1.4,n)
@@ -65,6 +64,7 @@ Create a toy dataset :
 And then use FIF to ranking functional dataset :
 
 .. code:: python
+
     import achd as ACHD
     ACH = ACHD.ACHD(discretization_points=tps,combi_subsample=420, J_size=2)
     ACH.fit(X)
