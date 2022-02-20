@@ -72,11 +72,16 @@ And then use ACHD to rank functional dataset :
    ACH.fit(X)
    Score = ACH.get_training_score()
    
+
+If you want to use the fitted estimator use
+.. code:: python
+   Score = ACH.decision_function(X_test)
+
    
 Dependencies
 ------------
 
-These are the dependencies to use FIF:
+These are the dependencies to use ACHD:
 
 * numpy 
 * cython
