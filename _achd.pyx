@@ -107,10 +107,6 @@ cdef class ACHD:
         self.n_samples = X.shape[0]
         self.discretization_size  = X.shape[1]
 
-
-        if (self.discretization_size != len(np.asarray(self.discretization_points))):
-            raise Exception("Discretization size must be  equal to the number of data measurements")
-
         S = np.zeros(self.n_samples, dtype=np.float64, order='C')
         vol_subsamples = np.zeros(self.combi_size , dtype=np.float64, order='C')
         idx_subsamples = np.zeros(self.combi_size * self.J_size , dtype=np.int32, order='C')
@@ -174,8 +170,6 @@ cdef class ACHD:
                 X_new = X_new.copy(order='C')
             n_samples_new = X_new.shape[0]
 
-            if (self.discretization_size != n_samples_new):
-                raise Exception("Data measurements of X_new must be equal to those of X")
 
             S = np.zeros(n_samples_new, dtype=np.float64, order='C')
             X_new_rearranged = np.zeros((n_samples_new, 2*self.discretization_size), dtype=np.float64, order='C')
