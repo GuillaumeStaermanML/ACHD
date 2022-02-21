@@ -49,4 +49,3 @@ setup(
     download_url='',
     install_requires=["numpy", "cython"],
 )
-#/Users/staermanguillaume/Desktop/Thèse/Code/ACHD_CPP/libqhull
