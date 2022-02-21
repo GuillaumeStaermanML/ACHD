@@ -63,7 +63,7 @@ Create a toy dataset :
 
 
    
-And then use ACHD to rank functional dataset :
+And then use ACHD to rank functional dataset:
 
 .. code:: python
 
@@ -73,8 +73,10 @@ And then use ACHD to rank functional dataset :
    Score = ACH.get_training_score()
    
 
-If you want to use the fitted estimator use
+If you want to use the fitted estimator use:
+
 .. code:: python
+
    Score = ACH.decision_function(X_test)
 
    
